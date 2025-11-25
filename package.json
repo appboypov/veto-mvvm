@@ -1,5 +1,5 @@
 {
-  "name": "veto-mvvm",
+  "name": "@appboypov/veto-mvvm",
   "version": "0.1.1",
   "description": "View/ViewModel pattern implementation and DI container for React",
   "main": "dist/index.js",
