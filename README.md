@@ -5,7 +5,7 @@ View/ViewModel pattern implementation and lightweight dependency injection conta
 ## Installation
 
 ```bash
-npm install veto-mvvm
+npm install @appboypov/veto-mvvm
 ```
 
 ## Features
@@ -20,7 +20,7 @@ npm install veto-mvvm
 ## Quick Start
 
 ```tsx
-import { locator, locate, useService, useViewModel, ViewModel } from 'veto-mvvm';
+import { locator, locate, useService, useViewModel, ViewModel } from '@appboypov/veto-mvvm';
 
 // Register services at app startup
 locator.registerLazySingleton('usersApi', () => new UsersApi());
@@ -44,7 +44,7 @@ The DI container class. Access via `locator` singleton or `LocatorService.I`.
 Singleton instance of the DI container.
 
 ```typescript
-import { locator } from 'veto-mvvm';
+import { locator } from '@appboypov/veto-mvvm';
 ```
 
 ### Registration Methods
